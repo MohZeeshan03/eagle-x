@@ -10,7 +10,7 @@ export default function Tokenomics() {
                               <img src={chart} alt="" />
                          </div>
                          <div className="w-1/2 pl-20">
-                              <h2 className="font-semibold text-5xl tracking-wider mb-6">Tokenomics</h2>
+                              <h2 className="font-semibold text-5xl tracking-wider mb-6">Token<span className="text-sky-400">omics</span></h2>
                               <p>The distribution of GLXE tokens is designed to ensure fairness and broad participation in the EAGLE-X ecosystem. The allocation shown in the chart.</p>
                          </div>
                          <div className="flex flex-wrap justify-center w-full my-9">
@@ -35,6 +35,7 @@ export default function Tokenomics() {
                                    <p>Our mission is to bridge the gap in access to education and healthcare by leveraging blockchain technology. We envision a world where every child has equal opportunities to thrive and succeed, regardless of their background or circumstances.</p>
                               </div>
                          </div>
+                         <p>Download the whitepaper to read more about the project:</p>
                          <button type="button" className="py-3 px-10 mx-auto border-2 border-sky-500 rounded-full uppercase font-semibold hover:border-sky-400 hover:text-sky-400 sl-animated-lg">DOWNLOAD WHITEPAPER</button>
                     </div>
                </div>
