@@ -3,7 +3,7 @@ import logo from "../../assets/img/logo.png"
 export default function header() {
 
      return (
-          <header className="fixed flex items-center justify-between w-full px-9 space-x-5 bg-gray-950 border-b-2 border-gray-700">
+          <header className="fixed flex items-center justify-between w-full px-9 space-x-5 bg-gray-950 border-b-2 border-gray-700 text-sm z-50">
                <a href="/" className="w-12"><img src={logo} alt="logo" /></a>
                <nav>
                     <ul className="flex items-center space-x-12 uppercase font-semibold">
