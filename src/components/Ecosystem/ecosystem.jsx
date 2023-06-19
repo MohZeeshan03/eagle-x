@@ -3,7 +3,7 @@
 export default function Ecosystem() {
 
      return (
-          <section className="bg-gradient-to-b from-gray-950 to-gray-900 py-24">
+          <section id="ecosystem" className="bg-gradient-to-b from-gray-950 to-gray-900 py-24">
                <div className="sl-container">
                     <h2 className="font-semibold text-5xl text-center tracking-wider mb-6">Eco<span className="text-sky-400">system</span></h2>
                     <p className="text-center mb-12">Our ecosystem is built on the foundation of collaboration, impact measurement, and active community engagement. We believe in the power of partnerships, transparency in reporting, and the active involvement of individuals to drive meaningful change.</p>

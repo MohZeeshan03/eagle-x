@@ -3,7 +3,7 @@ import team from "../../assets/img/team.png";
 export default function Team() {
 
      return (
-          <section className="bg-gradient-to-b from-gray-900 to-gray-950 py-24">
+          <section id="team" className="bg-gradient-to-b from-gray-900 to-gray-950 py-24">
                <div className="sl-container">
                     <h2 className="font-semibold text-5xl text-center tracking-wider mb-6">Meet <span className="text-sky-400">Team</span></h2>
                     <p className="text-center mb-12">EAGLE-X Impact is a Houston TX based digital asset development and management platform that focuses on leveraging the power of blockchain technology for social impact, especially in the delivery of targeted replicable aid (TRA). Our singular goal is to continually innovate methods of harnessing, tokenizing, and monetizing human capacity for kindness and charity. We are developing new initiatives to crowdfund social impact that will address certain aspects of human suffering and alleviate poverty in Africa and globally.</p>

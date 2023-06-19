@@ -1,9 +1,9 @@
 
 
-export default function About() {
+export default function Footer() {
 
      return (
-          <section id="about" className="bg-gradient-to-b from-gray-900 to-gray-950 py-24">
+          <footer className="bg-gradient-to-b from-gray-900 to-gray-950 pt-24 pb-8 border-t border-gray-700">
                <div className="sl-container">
                     <h2 className="font-semibold text-5xl text-center tracking-wider mb-6">About <span className="text-sky-400">Us</span></h2>
                     <p className="text-center mb-12">At EAGLE-X, we are driven by our commitment to social impact and leveraging blockchain technology to create positive change. Our platform provides a transparent and secure way to support education and healthcare initiatives for underprivileged children in Nigeria and Africa. By harnessing the power of the GLXE token and our ecosystem, we are empowering communities to rise to new heights and build a better future.</p>
@@ -18,6 +18,6 @@ export default function About() {
                          </div>
                     </div>
                </div>
-          </section>
+          </footer>
      )
 }

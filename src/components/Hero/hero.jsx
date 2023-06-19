@@ -3,7 +3,7 @@ import banner from "../../assets/img/banner_bg.jpg";
 export default function Hero() {
 
      return (
-          <section className="bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${banner})` }}>
+          <section id="hero" className="bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${banner})` }}>
                <div className="sl-container text-center pt-60 pb-40 space-y-4">
                     <h1 className="font-semibold text-6xl leading-normal mb-9">Welcome to <span className="text-sky-400">EAGLE-X</span> Empowering Communities Through Blockchain Technology.</h1>
                     <p>Join our mission to make a positive impact on the lives of underprivileged people in Africa and beyond. With EAGLE-X, you can be part of a revolutionary social impact ecosystem that leverages the power of blockchain technology for transparent, secure, and efficient giving.</p>

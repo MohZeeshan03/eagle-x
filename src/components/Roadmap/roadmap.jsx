@@ -3,7 +3,7 @@
 export default function Roadmap() {
 
      return (
-          <section className="bg-gradient-to-b from-gray-900 to-gray-950 py-24">
+          <section id="roadmap" className="bg-gradient-to-b from-gray-900 to-gray-950 py-24">
                <div className="sl-container">
                     <h2 className="font-semibold text-5xl text-center tracking-wider mb-6">Road<span className="text-sky-400">map</span></h2>
                     <p className="text-center mb-6">At EAGLE-X, we are committed to driving the adoption of blockchain technology for social impact. Our roadmap outlines the key milestones on our journey towards creating positive change and empowering communities.</p>

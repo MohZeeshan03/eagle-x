@@ -1,6 +1,7 @@
 import About from "./components/About/about"
 import Contact from "./components/Contact/contact"
 import Ecosystem from "./components/Ecosystem/ecosystem"
+import Footer from "./components/Footer/footer"
 import Header from "./components/Header/header"
 import Hero from "./components/Hero/hero"
 import Roadmap from "./components/Roadmap/roadmap"
@@ -19,6 +20,7 @@ function App() {
       <Ecosystem />
       <Team />
       <Contact />
+      <Footer />
     </>
   )
 }

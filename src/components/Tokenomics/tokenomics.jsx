@@ -3,7 +3,7 @@ import chart from "../../assets/img/pie-chart.png"
 export default function Tokenomics() {
 
      return (
-          <section className="bg-gradient-to-b from-gray-950 to-gray-900 py-24">
+          <section id="tokenomics" className="bg-gradient-to-b from-gray-950 to-gray-900 py-24">
                <div className="sl-container">
                     <div className="flex flex-wrap items-center">
                          <div className="w-1/2 px-9">

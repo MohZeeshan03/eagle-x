@@ -3,7 +3,7 @@
 export default function Contact() {
 
      return (
-          <section className="bg-gradient-to-b from-gray-950 to-gray-900 py-24">
+          <section id="contact" className="bg-gradient-to-b from-gray-950 to-gray-900 py-24">
                <div className="sl-container">
                     <h2 className="font-semibold text-5xl text-center tracking-wider mb-6">Contact <span className="text-sky-400">Us</span></h2>
                     <p className="text-center mb-6">We would love to hear from you! If you have any questions, feedback, or inquiries, please feel free to reach out to us. Our team is here to assist you and provide the information you need.</p>
