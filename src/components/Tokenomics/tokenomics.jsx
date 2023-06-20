@@ -1,4 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from "swiper";
 import 'swiper/css';
 import chart from "../../assets/img/pie-chart.png"
 import chartBg from "../../assets/img/chart_bg.jpg"
@@ -26,9 +27,15 @@ export default function Tokenomics() {
                     </div>
                </div>
                <div className="sl-container py-20">
-                    <Swiper className="mySwiper text-sm"
+                    <Swiper
+                         className="mySwiper text-sm"
+                         autoplay={{
+                              delay: 1500,
+                              disableOnInteraction: false,
+                         }}
                          spaceBetween={20}
-                         slidesPerView={4}>
+                         slidesPerView={4}
+                         modules={[Autoplay]}>
                          <SwiperSlide>
                               <div className="group space-y-4 h-80 px-6 pt-12 border border-gray-800/80 rounded-3xl cursor-pointer hover:h-auto hover:pb-10">
                                    <div className="flex items-center justify-center w-20 h-20 rounded-full bg-gray-300/10 border-4 border-gray-300/30 group-hover:border-sky-400"><img className="w-8" src={icon1} alt="" /></div>
