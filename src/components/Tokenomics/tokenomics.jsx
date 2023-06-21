@@ -96,7 +96,7 @@ export default function Tokenomics() {
                     </Swiper>
                     <div className="flex  items-center justify-between lg:mt-10 mt-4">
                          <p>Download the whitepaper to read more about the project:</p>
-                         <button type="button" className="py-3 lg:px-10 px-6 border-2 border-sky-500 rounded-full uppercase font-semibold hover:border-sky-400 hover:text-sky-400 sl-animated-lg">DOWNLOAD WHITEPAPER</button>
+                         <a href="/public/EagleX-Whitepaper.pdf" type="button" className="py-3 lg:px-10 px-6 border-2 border-sky-500 rounded-full uppercase font-semibold hover:border-sky-400 hover:text-sky-400 sl-animated-lg">DOWNLOAD WHITEPAPER</a>
                     </div>
                </div>
           </section>

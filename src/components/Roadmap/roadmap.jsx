@@ -70,8 +70,14 @@ export default function Roadmap() {
                               </div>
                          </div>
                          <div className="relative block px-4 overflow-hidden mb-6 before:absolute md:before:top-16 before:top-[2.7rem] before:left-0 before:h-2 before:w-full before:bg-sky-400/10">
-                              <h3 className="font-semibold text-pink-500 md:mb-10 mb-6">Q4 2025 - Q1 2026</h3>
+                              <h3 className="font-semibold text-pink-500 md:mb-10 mb-6">Q4 2025</h3>
                               <div className="relative h-full md:ml-20 ml-5 md:pl-6 pl-4 pb-2 md:pt-2 pt-30 border-l-2 border-pink-500 before:absolute before:-left-4 before:-top-4 before:w-8 before:h-8 before:rounded-full before:bg-pink-500/20  after:absolute after:-left-2 after:-top-2 after:w-4 after:h-4 after:rounded-full after:bg-pink-500">
+                                   <p className="text-base md:pt-6 pt-4 text-gray-300">EagleDEX, EagleDAO, EaglePad, EagleConsult</p>
+                              </div>
+                         </div>
+                         <div className="relative block px-4 overflow-hidden mb-6 before:absolute md:before:top-16 before:top-[2.7rem] before:left-0 before:h-2 before:w-full before:bg-sky-400/10">
+                              <h3 className="font-semibold text-blue-500 md:mb-10 mb-6">Q4 2025 - Q1 2026</h3>
+                              <div className="relative h-full md:ml-20 ml-5 md:pl-6 pl-4 pb-2 md:pt-2 pt-30 border-l-2 border-blue-500 before:absolute before:-left-4 before:-top-4 before:w-8 before:h-8 before:rounded-full before:bg-blue-500/20  after:absolute after:-left-2 after:-top-2 after:w-4 after:h-4 after:rounded-full after:bg-blue-500">
                                    <p className="text-base md:pt-6 pt-4 text-gray-300">Africa Implementation Plan</p>
                               </div>
                          </div>
