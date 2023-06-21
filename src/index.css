@@ -23,7 +23,7 @@
 
 @layer base {
   body {
-    @apply bg-gray-950 text-white lg:text-lg sm:text-base text-xs;
+    @apply bg-gray-950 text-white lg:text-lg text-base;
   }
 
   a,
