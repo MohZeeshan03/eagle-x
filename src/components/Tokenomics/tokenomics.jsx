@@ -16,10 +16,10 @@ export default function Tokenomics() {
                <div className="bg-center bg-no-repeat bg-fixed lg:py-32 md:py-20 py-10" style={{ backgroundImage: `url(${chartBg})` }}>
                     <div className="sl-container">
                          <div className="flex flex-wrap items-center">
-                              <div className="lg:w-1/2 w-full lg:px-9 mb-4">
+                              <div className="wow fadeInUp lg:w-1/2 w-full lg:px-9 mb-4">
                                    <img className="lg:w-full md:w-1/2 w-2/3 mx-auto" src={chart} alt="" />
                               </div>
-                              <div className="lg:w-1/2 w-full lg:pl-20 mb-4">
+                              <div className="wow fadeInUp lg:w-1/2 w-full lg:pl-20 mb-4">
                                    <h2 className="font-semibold lg:text-5xl md:text-3xl text-2xl tracking-wider lg:mb-6 sm:mb-4 mb-2">Token<span className="text-sky-400">omics</span></h2>
                                    <p>The distribution of GLXE tokens is designed to ensure fairness and broad participation in the EAGLE-X ecosystem. The allocation shown in the chart.</p>
                               </div>
@@ -28,7 +28,7 @@ export default function Tokenomics() {
                </div>
                <div className="sl-container lg:py-20 md:py-14 py-9">
                     <Swiper
-                         className="mySwiper text-sm"
+                         className="wow slideInRight mySwiper text-sm"
                          autoplay={{
                               delay: 1500,
                               disableOnInteraction: false,
@@ -94,7 +94,7 @@ export default function Tokenomics() {
                               </div>
                          </SwiperSlide>
                     </Swiper>
-                    <div className="flex  items-center justify-between lg:mt-10 mt-4">
+                    <div className="wow fadeInDown flex items-center justify-between lg:mt-10 mt-4">
                          <p>Download the whitepaper to read more about the project:</p>
                          <a href="/public/EagleX-Whitepaper.pdf" type="button" className="py-3 lg:px-10 px-6 border-2 border-sky-500 rounded-full uppercase font-semibold hover:border-sky-400 hover:text-sky-400 sl-animated-lg">DOWNLOAD WHITEPAPER</a>
                     </div>
