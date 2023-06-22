@@ -4,7 +4,7 @@
 
 @layer components {
   .sl-container {
-    @apply xl:max-w-[1280px] lg:max-w-[1024px] md:max-w-[960px] max-w-[540px] w-full sm:px-4 px-2 mx-auto relative z-[1];
+    @apply relative xl:max-w-[1280px] lg:max-w-[1024px] md:max-w-[960px] max-w-[540px] w-full sm:px-4 px-2 mx-auto relative z-[1];
   }
 
   /* ANIMATION */
