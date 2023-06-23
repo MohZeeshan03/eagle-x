@@ -58,7 +58,7 @@ export default function Tokenomics() {
                               <div className="group space-y-4 h-80 px-6 pt-12 border border-gray-800/80 rounded-3xl cursor-pointer hover:h-auto hover:pb-10">
                                    <div className="flex items-center justify-center w-20 h-20 rounded-full bg-gray-300/10 border-4 border-gray-300/30 group-hover:border-sky-400"><img className="w-8" src={icon1} alt="" /></div>
                                    <h3 className="text-sky-400 text-2xl font-medium mb-2">Token Burning Mechanism</h3>
-                                   <p className="h-16 overflow-hidden group-hover:h-auto">Our mission is to bridge the gap in access to education and healthcare by leveraging blockchain technology. We envision a world where every child has equal opportunities to thrive and succeed, regardless of their background or circumstances.</p>
+                                   <p className="h-16 overflow-hidden group-hover:h-auto">To maintain the value and scarcity of GLXE tokens, we have implemented a token burning mechanism. A percentage of transaction fees generated within the ecosystem will be used to buy back and burn tokens periodically. This reduces the total supply of tokens over time, creating a deflationary effect and increasing the value for token holders.</p>
                               </div>
                          </SwiperSlide>
                          <SwiperSlide>
