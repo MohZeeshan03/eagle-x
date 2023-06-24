@@ -28,9 +28,9 @@ export default function Footer() {
                               <h2 className="text-white lg:text-xl md:text-lg text-base uppercase font-semibold lg:my-6 md:my-4 my-2">useful links</h2>
                               <ul className="space-y-2">
                                    <li><a href="#contact" className="hover:text-sky-400 sl-animated-lg">Contact us</a></li>
-                                   <li><a href="/public/EagleX-Whitepaper.pdf" className="hover:text-sky-400 sl-animated-lg">Whitepaper</a></li>
-                                   <li><a href="/public/Disclaimer.pdf" className="hover:text-sky-400 sl-animated-lg">Disclaimer</a></li>
-                                   <li><a href="/public/Data-Privacy-terms.pdf" className="hover:text-sky-400 sl-animated-lg">Terms & Services</a></li>
+                                   <li><a href="/EagleX-Whitepaper.pdf" className="hover:text-sky-400 sl-animated-lg">Whitepaper</a></li>
+                                   <li><a href="/Disclaimer.pdf" className="hover:text-sky-400 sl-animated-lg">Disclaimer</a></li>
+                                   <li><a href="/Data-Privacy-terms.pdf" className="hover:text-sky-400 sl-animated-lg">Terms & Services</a></li>
                               </ul>
                          </div>
                          <div className="wow slideInUp md:order-3 order-2 lg:w-1/4 md:w-2/5 w-full px-4 mb-4">
@@ -47,8 +47,8 @@ export default function Footer() {
                     <div className="wow slideInDown flex flex-wrap items-start md:justify-between justify-center lg:pt-10 md:pt-6 pt-4 border-t border-gray-900">
                          <p className="mb-2">Copyright © 2023. All Rights Reserved <span className="text-white">Eagle X</span></p>
                          <ul className="flex flex-row flex-wrap space-x-6 mb-2">
-                              <li><a href="/public/Data-Privacy-terms.pdf" className="hover:text-sky-200 sl-animated-lg">Terms and conditions</a></li>
-                              <li><a href="/public/Disclaimer.pdf" className="hover:text-sky-200 sl-animated-lg">Disclaimer</a></li>
+                              <li><a href="/Data-Privacy-terms.pdf" className="hover:text-sky-200 sl-animated-lg">Terms and conditions</a></li>
+                              <li><a href="/Disclaimer.pdf" className="hover:text-sky-200 sl-animated-lg">Disclaimer</a></li>
                          </ul>
                     </div>
                </div>
