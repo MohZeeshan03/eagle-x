@@ -30,7 +30,7 @@ export default function Tokenomics() {
                     <Swiper
                          className="wow slideInRight mySwiper text-sm"
                          autoplay={{
-                              delay: 3500,
+                              delay: 5000,
                               disableOnInteraction: true,
                          }}
                          spaceBetween={10}

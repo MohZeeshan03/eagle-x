@@ -53,7 +53,7 @@ export default function header() {
                               <li><a href="#contact" onClick={() => smoothScroll("contact")} className="relative h-full px-1 py-8 uppercase after:absolute after:bottom-0 after:left-0 after:w-0 after:h-1 after:bg-sky-400 hover:after:w-full sl-animated-xl">contact us</a></li>
                          </ul>
                     </nav>
-                    <button type="button" className="lg:block hidden py-3 lg:px-10 px-6 border-2 border-sky-500 rounded-full uppercase font-semibold hover:border-sky-400 hover:text-sky-400 sl-animated-lg">Go to presale</button>
+                    <a href="https://presale.eagleximpact.tech/" target="_blank" className="lg:block hidden py-3 lg:px-10 px-6 border-2 border-sky-500 rounded-full uppercase font-semibold hover:border-sky-400 hover:text-sky-400 sl-animated-lg">Go to presale</a>
                </div>
                <div className={`text-center sl-animated-xl ${sidebar ? "opacity-100 visible h-auto py-4" : "opacity-0 invisible h-0"}`}>
                     <ul className="space-y-2 font-semibold">
@@ -65,7 +65,7 @@ export default function header() {
                          <li><button onClick={() => smoothScroll("team")} className="relative h-full py-2 px-1 uppercase after:absolute after:bottom-0 after:left-0 after:w-0 after:h-1 after:bg-sky-400 hover:after:w-full sl-animated-xl">team</button></li>
                          <li><button onClick={() => smoothScroll("contact")} className="relative h-full py-2 px-1 uppercase after:absolute after:bottom-0 after:left-0 after:w-0 after:h-1 after:bg-sky-400 hover:after:w-full sl-animated-xl">contact us</button></li>
                     </ul>
-                    <button type="button" className="py-3 px-9 mt-2 border-2 border-sky-500 rounded-full uppercase font-semibold hover:border-sky-400 hover:text-sky-400 sl-animated-lg">Go to presale</button>
+                    <a href="https://presale.eagleximpact.tech/" target="_blank" className="py-3 px-9 mt-2 border-2 border-sky-500 rounded-full uppercase font-semibold hover:border-sky-400 hover:text-sky-400 sl-animated-lg">Go to presale</a>
                </div>
           </header>
      )

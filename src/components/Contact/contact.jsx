@@ -1,7 +1,20 @@
+import { useRef } from "react";
 import contactBg from "../../assets/img/contact_bg.png"
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
+     const form = useRef();
 
+     const sendEmail = (e) => {
+          e.preventDefault();
+
+          emailjs.sendForm('service_azzgs6g', 'template_robvr5l', form.current, 'Pb3puYcYhOkd_Q0rs')
+               .then((result) => {
+                    alert("Your message sended!")
+               }, (error) => {
+                    alert("there was an error, try again.")
+               });
+     };
      return (
           <section id="contact" className="bg-gradient-to-b from-gray-950 to-gray-900 lg:py-24 md:py-16 py-10">
                <div className="sl-container">
@@ -16,16 +29,16 @@ export default function Contact() {
                               </div>
                               <a href="mailto:eagleximpact@gmail.com"> Email: <span className="group-hover:text-sky-400 sl-animated-lg"> Eagleximpact@gmail.com</span></a>
                          </div>
-                        
+
                     </div>
                     <div className="bg-cover bg-center bg-no-repeat lg:p-20 md:p-9 p-6" style={{ backgroundImage: `url(${contactBg})` }}>
-                         <form className="wow slideInUp lg:space-y-9 md:space-y-6 space-y-3 text-center">
+                         <form ref={form} onSubmit={sendEmail} className="wow slideInUp lg:space-y-9 md:space-y-6 space-y-3 text-center">
                               <div className="flex lg:gap-x-12 md:gap-x-9 gap-x-4">
-                                   <input type="text" placeholder="Enter your Name" className="bg-gray-950/70 md:py-4 py-3 md:px-9 px-4 border border-gray-300/20 placeholder:text-gray-300 rounded-lg" />
-                                   <input type="email" placeholder="Enter your Email" className="bg-gray-950/70 md:py-4 py-3 md:px-9 px-4 border border-gray-300/20 placeholder:text-gray-300 rounded-lg" />
+                                   <input type="text" name="user_name" placeholder="Enter your Name" className="bg-gray-950/70 md:py-4 py-3 md:px-9 px-4 border border-gray-300/20 placeholder:text-gray-300 rounded-lg" />
+                                   <input type="email" name="user_name" placeholder="Enter your Email" className="bg-gray-950/70 md:py-4 py-3 md:px-9 px-4 border border-gray-300/20 placeholder:text-gray-300 rounded-lg" />
                               </div>
-                              <textarea placeholder="Enter your Message" className="md:h-40 h-20 bg-gray-950/70 md:py-4 py-3 md:px-9 px-4 border border-gray-300/20 placeholder:text-gray-300 rounded-lg" ></textarea>
-                              <button type="button" className="py-3 lg:px-10 px-6 border-2 border-sky-500 rounded-full uppercase font-semibold hover:border-sky-400 hover:text-sky-400 sl-animated-lg">SEND MESSAGE</button>
+                              <textarea name="user_name" placeholder="Enter your Message" className="md:h-40 h-20 bg-gray-950/70 md:py-4 py-3 md:px-9 px-4 border border-gray-300/20 placeholder:text-gray-300 rounded-lg" ></textarea>
+                              <button type="submit" className="py-3 lg:px-10 px-6 border-2 border-sky-500 rounded-full uppercase font-semibold hover:border-sky-400 hover:text-sky-400 sl-animated-lg">SEND MESSAGE</button>
                          </form>
                     </div>
                     <p className="wow fadeInDown text-center mt-6">Stay connected with us on social media to get the latest updates, news, and engage in conversations about social impact and blockchain technology. Follow us on Twitter, Facebook, and LinkedIn to join our vibrant community.<br />
