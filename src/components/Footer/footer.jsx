@@ -45,7 +45,7 @@ export default function Footer() {
                          </div>
                     </div>
                     <div className="wow slideInDown flex flex-wrap items-start md:justify-between justify-center lg:pt-10 md:pt-6 pt-4 border-t border-gray-900">
-                         <p className="mb-2">Copyright © 2023. All Rights Reserved <span className="text-white">Eagle X</span></p>
+                         <p className="mb-2">Copyright © 2023. All Rights Reserved <span className="text-white">EAGLE-X</span></p>
                          <ul className="flex flex-row flex-wrap space-x-6 mb-2">
                               <li><a href="/Data-Privacy-terms.pdf" className="hover:text-sky-200 sl-animated-lg">Terms and conditions</a></li>
                               <li><a href="/Disclaimer.pdf" className="hover:text-sky-200 sl-animated-lg">Disclaimer</a></li>
