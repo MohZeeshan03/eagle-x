@@ -10,7 +10,6 @@ export default function Contact() {
           e.preventDefault();
           emailjs.sendForm('service_3eq02g1', 'template_enw2fqf', form.current, 'eQUvglBoR_QuYmHhA')
                .then((result) => {
-                    console.log("Name:",)
                     alert("Your message has been sent!")
                }, (error) => {
                     alert("Error, try again later.")
