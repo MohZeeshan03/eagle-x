@@ -3,16 +3,17 @@ import contactBg from "../../assets/img/contact_bg.png"
 import emailjs from '@emailjs/browser';
 
 export default function Contact() {
+
      const form = useRef();
 
      const sendEmail = (e) => {
           e.preventDefault();
-
-          emailjs.sendForm('service_azzgs6g', 'template_2pxeq2f', form.current, 'Pb3puYcYhOkd_Q0rs')
+          emailjs.sendForm('service_3eq02g1', 'template_2pxeq2f', form.current, 'eQUvglBoR_QuYmHhA')
                .then((result) => {
-                    alert("Your message sended!")
+                    console.log("Name:",)
+                    alert("Your message has been sent!")
                }, (error) => {
-                    alert("there was an error, try again.")
+                    alert("Error, try again later.")
                });
      };
      return (
@@ -37,7 +38,7 @@ export default function Contact() {
                                    <input type="text" name="user_name" placeholder="Enter your Name" className="bg-gray-950/70 md:py-4 py-3 md:px-9 px-4 border border-gray-300/20 placeholder:text-gray-300 rounded-lg" />
                                    <input type="email" name="user_name" placeholder="Enter your Email" className="bg-gray-950/70 md:py-4 py-3 md:px-9 px-4 border border-gray-300/20 placeholder:text-gray-300 rounded-lg" />
                               </div>
-                              <textarea name="user_name" placeholder="Enter your Message" className="md:h-40 h-20 bg-gray-950/70 md:py-4 py-3 md:px-9 px-4 border border-gray-300/20 placeholder:text-gray-300 rounded-lg" ></textarea>
+                              <textarea type="messageForm" name="user_name" placeholder="Enter your Message" className="md:h-40 h-20 bg-gray-950/70 md:py-4 py-3 md:px-9 px-4 border border-gray-300/20 placeholder:text-gray-300 rounded-lg" ></textarea>
                               <button type="submit" className="py-3 lg:px-10 px-6 border-2 border-sky-500 rounded-full uppercase font-semibold hover:border-sky-400 hover:text-sky-400 sl-animated-lg">SEND MESSAGE</button>
                          </form>
                     </div>
