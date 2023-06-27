@@ -8,7 +8,7 @@ export default function Contact() {
 
      const sendEmail = (e) => {
           e.preventDefault();
-          emailjs.sendForm('service_3eq02g1', 'template_2pxeq2f', form.current, 'eQUvglBoR_QuYmHhA')
+          emailjs.sendForm('service_3eq02g1', 'template_enw2fqf', form.current, 'eQUvglBoR_QuYmHhA')
                .then((result) => {
                     console.log("Name:",)
                     alert("Your message has been sent!")
