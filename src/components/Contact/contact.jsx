@@ -36,10 +36,10 @@ export default function Contact() {
                          <form ref={form} onSubmit={sendEmail} className="wow slideInUp lg:space-y-9 md:space-y-6 space-y-3 text-center">
                               <div className="flex lg:gap-x-12 md:gap-x-9 gap-x-4">
                                    <input type="text" name="user_name" placeholder="Enter your Name" className="bg-gray-950/70 md:py-4 py-3 md:px-9 px-4 border border-gray-300/20 placeholder:text-gray-300 rounded-lg" />
-                                   <input type="email" name="user_name" placeholder="Enter your Email" className="bg-gray-950/70 md:py-4 py-3 md:px-9 px-4 border border-gray-300/20 placeholder:text-gray-300 rounded-lg" />
+                                   <input type="email" name="user_email" placeholder="Enter your Email" className="bg-gray-950/70 md:py-4 py-3 md:px-9 px-4 border border-gray-300/20 placeholder:text-gray-300 rounded-lg" />
                               </div>
-                              <textarea type="messageForm" name="user_name" placeholder="Enter your Message" className="md:h-40 h-20 bg-gray-950/70 md:py-4 py-3 md:px-9 px-4 border border-gray-300/20 placeholder:text-gray-300 rounded-lg" ></textarea>
-                              <button type="submit" className="py-3 lg:px-10 px-6 border-2 border-sky-500 rounded-full uppercase font-semibold hover:border-sky-400 hover:text-sky-400 sl-animated-lg">SEND MESSAGE</button>
+                              <textarea name="message" placeholder="Enter your Message" className="md:h-40 h-20 bg-gray-950/70 md:py-4 py-3 md:px-9 px-4 border border-gray-300/20 placeholder:text-gray-300 rounded-lg" ></textarea>
+                              <button type="submit" value="Send" className="py-3 lg:px-10 px-6 border-2 border-sky-500 rounded-full uppercase font-semibold hover:border-sky-400 hover:text-sky-400 sl-animated-lg">SEND MESSAGE</button>
                          </form>
                     </div>
                     <p className="wow fadeInDown text-center mt-6">Stay connected with us on social media to get the latest updates, news, and engage in conversations about social impact and blockchain technology. Follow us on Twitter, Facebook, and LinkedIn to join our vibrant community.<br />
